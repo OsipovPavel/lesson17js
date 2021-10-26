@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личные данные на сайте</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body class="user-page">
+    <div class="wrapper">
+        <div class="user-info">
+            <p class="user-login">123456@yandex.ru</p>
+            <a href="index2.html" class="link-exit">Выход</a>
+        </div>
+        <h2>Информация о пользователе</h2>
+        <form action="" method="GET" id="form-user">
+            <div class="inputs">
+                <label for="first-name" class="text-title">Имя
+                    <span class="text-wrong unvisible">Введите имя правильно!</span>
+                    <input type="text" name="first-name" id="first-name" required>
+                </label>
+                <label for="last-name" class="text-title">Фамилия
+                    <span class="text-wrong unvisible">Введите правильную фамилию!</span>
+                    <input type="text" name="last-name" id="last-name" required>
+                </label>
+                <label for="year-birthday" class="text-title">Год рождения
+                    <span class="text-wrong unvisible">Укажите верный год рождения</span>
+                    <input type="text" name="year-birthday" id="year-birthday" required>
+                </label>
+                <label for="gender" class="text-title">Пол
+                    <select name="gender" id="gender" required>
+                        <option value="male" selected>Мужской</option>
+                        <option value="female">Женский</option>
+                    </select>
+                </label>
+                <label for="phone" class="text-title">Телефон
+                    <span class="text-wrong unvisible">Введите корректный номер телефона </span>
+                    <input type="text" name="phone" id="phone">
+                </label>
+                <label for="skype" class="text-title">Skype
+                    <span class="text-wrong unvisible">Введите корректный адрес Skype </span>
+                    <input type="text" name="skype" id="skype">
+                </label>
+            </div>
+            <input type="submit" value="Сохранить">
+        </form>
+    </div>
+    <script src="js/main2.js"></script>
+</body>
+</html>

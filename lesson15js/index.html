@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вопросы к тесту</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h2 id="question-title">Все вопросы:</h2>
+        <div class="questions"></div>
+        <form action="" method="GET" id="form">
+            <h3>Добавить новый вопрос</h3>
+            <label for="new-question"><span class="container-text">Вопрос:</span>
+                <input type="text" name="new-question" id="new-question">
+            </label>
+            <label for="correct"><span class="container-text">Правильный ответ:</span>
+                <input type="text" name="correct" id="correct">
+            </label>
+            <label for="uncorrect"><span class="container-text">Неправильный ответ:</span>
+                <input type="text" name="uncorrect" id="uncorrect">
+            </label>
+            <input type="submit" value="Добавить" id="add-question">
+        </form>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

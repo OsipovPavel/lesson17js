@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация на сайте</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Регистрация</h2>
+        <form action="" method="GET" id="form-registration">
+            <label for="email">
+                <div class="form-text">
+                    <span class="text-title">Email</span>
+                    <span class="text-wrong unvisible">Неверный адрес</span>
+                </div>
+                <input type="email" name="email" id="email" class="input-box" required>
+            </label>
+            <label for="password">
+                <div class="form-text">
+                    <span class="text-title">Пароль</span>
+                    <span class="text-wrong unvisible">Слишком легкий!</span>
+                </div>
+                <input type="password" name="password" id="password" class="input-box" required>
+            </label>
+            <label for="repeat-password">
+                <div class="form-text">
+                    <span class="text-title">Повторите пароль</span>
+                    <span class="text-wrong unvisible">Пароли не совпадают!</span>
+                </div>
+                <input type="password" id="repeat-password" class="input-box" required>
+            </label>
+            <input type="submit" value="Зарегистрироваться">
+        </form>
+    </div>
+    <script src="js/main2.js"></script>
+</body>
+</html>

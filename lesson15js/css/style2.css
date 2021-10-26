@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+#form-registration {
+    width: 100%;
+    background-color: #ffe7d3;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-text,
+.input-box {
+    width: 100%;
+    display: block;
+}
+
+.text-wrong {
+    color: #d30000;
+    font-size: 16px;
+}
+
+.form-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.input-box,
+input[type="submit"] {
+    height: 30px;
+    font-size: 20px;
+}
+
+.unvisible {
+    display: none;
+}
+
+.user-info {
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    font-weight: 700;
+    font-size: 16px;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+
+.user-login {
+    text-align: right;
+}
+
+.link-exit {
+    margin-left: 20px;
+}
+
+.user-page {
+    background-color: #ffe7d3;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+#form-user {
+    width: 100%;
+    padding: 15px;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.text-title {
+    font-size: 16px;
+}
+
+input[type="text"], select {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    
+}
